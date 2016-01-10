@@ -53,16 +53,19 @@ Developing a website has many stages & specialisations.
 * `<img>` - Insert an [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img). Pay attention to [attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Attributes) for tag
 * `<footer>` - Use to define content for [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 * `<link>` - Specifies relationship between your page and an external resource, mainly CSS used for files. 
+ 
+<sup>_importing an external file containing the styles_</sup>
 
 ```
 <link rel="stylesheet" href="css/main.css">
 ```
-<sup>_importing an external file containing the styles_</sup>
+
 
 * `<script>` - used to embed or reference an executable [script](https://developer.mozilla.org/en/docs/Web/HTML/Element/script)
 
+<sup>_importing an external file containing JavaScript_</sup>
+
 ```
-<!-- Imports your external Javascript code -->
 <script src="javascript.js"></script>
 ```
 	
