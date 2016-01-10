@@ -5,6 +5,7 @@
 * HTML
 * CSS
 * Frameworks
+* Bootstrap
 
 ****
 
@@ -133,7 +134,7 @@ Frontend frameworks usually consist of a package made up of a structure of files
 
 ****
 
-## BootStrap
+## Bootstrap
 ##### Lets get started. 
 
 1. You will need to download BootStrap [here](https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip), we will be using v3.3.6.
