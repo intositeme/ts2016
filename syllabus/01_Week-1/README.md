@@ -5,10 +5,10 @@
 * What do you think makes a good Website?
 * Do you think you're a good web/interactive/digital designer? Why?
 * What qualities do you think is needed to be so?
-* UI/UX - What are they? [^1]
+* UI/UX - What are they? <sup>[1](#footnote1)</sup>
 
 
-[^1]: [Difference between UI & UX](http://blog.careerfoundry.com/the-difference-between-ux-and-ui-design-a-laymans-guide/)
+
 
 
 Developing a website has many stages & specialisations. 
@@ -22,3 +22,6 @@ Developing a website has many stages & specialisations.
 6. Site Testing
 7. Launch
 
+
+****
+<a name="footnote1">1</a>: [Difference between UI & UX](http://blog.careerfoundry.com/the-difference-between-ux-and-ui-design-a-laymans-guide/)
