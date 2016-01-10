@@ -29,7 +29,9 @@ Developing a website has many stages & specialisations.
 7. Launch
 
 ****
+
 <a name="html"></a>
+
 ## HTML 
 
 * What is HTML?
@@ -112,7 +114,9 @@ If you're interested, you can try out a basic tutorial [here](https://developer.
 ##### More on JavaScript in week 3.
 
 ****
+
 <a name="frameworks"></a>
+
 ## Frameworks 
 
 A framework is a standardized set of concepts, practices and criteria for dealing with a common type of problem, which can be used as a reference to help us approach and resolve new problems of a similar nature.<sup>[6](#footnote6)</sup>
@@ -132,7 +136,9 @@ Frontend frameworks usually consist of a package made up of a structure of files
 ##### We will be using [Bootstrap v3.3.6](http://getbootstrap.com/) built by Twitter.
 
 ****
+
 <a name="bootstrap"></a>
+
 ## Bootstrap 
 ##### Lets get started. 
 
@@ -155,11 +161,75 @@ Bootstrap provides a variaty of different Navbars to start with. You should view
 ##### Containers
 Fixed and Fluid containers
 
+```
+<!-- Fixed width container -->
+<div class="container"> </div>
+
+<!-- Fixed width container -->
+<div class="container-fluid"> </div>
+```
+
 ##### Rows
 Use rows to create horizontal groups of columns.
 
+```
+<div class="container-fluid">
+  <div class="row">
+    ...
+  </div>
+  <div class="row">
+    ...
+  </div>
+</div>
+```
+
 ##### Columns
 Content should be placed within columns, and only columns may be immediate children of rows.
+
+```
+<!-- Put this style into the header of the document to preview the columns -->
+<style>
+	.row {
+		background-color: rgba(86, 61, 124, 0.15);
+		border: 1px solid rgba(86, 61, 124, 0.2);
+	}
+</style>
+```
+
+
+```
+<div class="container-fluid">
+  	<div class="row">
+  		<div class="col-md-8">.col-md-8</div>
+  		<div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-4">.col-md-4</div>
+  		<div class="col-md-4">.col-md-4</div>
+  		<div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+ 		<div class="col-md-6">.col-md-6</div>
+	  	<div class="col-md-6">.col-md-6</div>
+	</div>
+</div>
+
+```
+
+###### Responsive Columns
+Columns resizes according to browser size.
+
+```
+<div class="container-fluid">
+	<div class="row">
+  		<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+  		<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+  		<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+	</div>
+</div>
+```
+
+
 
 ##### Buttons
 http://getbootstrap.com/css/#buttons
