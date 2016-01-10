@@ -16,14 +16,16 @@ Developing a website has many stages & specialisations.
 #### Development Stages 
 1. Project Definition 
 2. Project Scope / Content gathering
-3. ** Wireframes & Site architecture **
-4. ** Visual Design **
-5. ** Site Development **
+3. **Wireframes & Site architecture**
+4. **Visual Design**
+5. **Site Development**
 6. Site Testing
 7. Launch
 
 
 ****
+###### Footnotes
+
 <a name="footnote1">1</a>: [Difference between UI & UX](http://blog.careerfoundry.com/the-difference-between-ux-and-ui-design-a-laymans-guide/)
 
 <a name="footnote2">2</a>: [UX is not UI](http://www.helloerik.com/ux-is-not-ui)
