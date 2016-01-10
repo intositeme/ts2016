@@ -16,10 +16,10 @@ Think of this workshop as a maker studio where you will exercise your abilities 
 
 | WEEK | TOPIC | ASSIGNMENT     |
 |:----:|:-----:|:--------------:|
-|  01  | Presentation & HTML: Introduction to workshop, review syllabus, discuss technical requirements & tools used, and present basics of Web Development process. Start coding HTML! | Read 02-html.md & do the assignment |
-|  02  | CSS: Explore Casscading style sheets and learn how to use it to style your website. | Read 03-css.md & do the assignment |
-|  03  | JS: Start adding effects to your website using JavaScript | Read 04-javascript.md & do the assignment |
-|  04  | Advance JS: Learn how to make use the wide resources of the web to find Javascript libraries to add effects to your website | Read 05-javascript.md |
+|  01  | Presentation & HTML: Introduction to workshop, review syllabus, discuss technical requirements & tools used, and present basics of Web Development process. Start coding HTML! | Read 01-html.md & do the assignment |
+|  02  | CSS: Explore Casscading style sheets and learn how to use it to style your website. | Read 02-css.md & do the assignment |
+|  03  | JS: Start adding effects to your website using JavaScript | Read 03-javascript.md & do the assignment |
+|  04  | Advance JS: Learn how to make use the wide resources of the web to find Javascript libraries to add effects to your website | Read 04-javascript.md |
 
 ## Learning Outcomes
 By the successful completion of this workshop, students will be able to:
@@ -28,7 +28,7 @@ By the successful completion of this workshop, students will be able to:
 * Have an awareness of the considerations that is required when producing a website
 * Produce your website & see it live on the internet
 * Make use of Basic JavaScript libraries to enhance your website
-* 
+
 
 ## Materials
 Hardware:
