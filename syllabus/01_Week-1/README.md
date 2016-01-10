@@ -1,5 +1,12 @@
 # Week 01: Web Development
 
+#### Outline
+* Introduction
+* HTML
+* CSS
+* Frameworks
+___
+
 ## Introduction
 
 * What do you think makes a good Website?
@@ -88,10 +95,27 @@ body {
 }
 </style>
 ```
+##### More on CSS in week 2.
+
 
 
 ## Frameworks
 
+A framework is a standardized set of concepts, practices and criteria for dealing with a common type of problem, which can be used as a reference to help us approach and resolve new problems of a similar nature.<sup>[5](#footnote5)</sup>
+
+Frameworks allow us to cut out much of the work and save a lot of time.<sup>[5](#footnote5)</sup>
+
+#### Front-end Frameworks (or CSS Frameworks)
+Frontend frameworks usually consist of a package made up of a structure of files and folders of standardized code (HTML, CSS, JS documents etc.)<sup>[5](#footnote5)</sup>
+
+**The usual components are:**
+
+* CSS source code to create a grid: this allows the developer to position the different elements that make up the site design in a simple and versatile fashion.
+* Typography style definitions for HTML elements.
+* Solutions for cases of browser incompatibility so the site displays correctly in all browsers.
+* Creation of standard CSS classes which can be used to style advanced components of the user interface.
+
+##### We will be using [Bootstrap v3.6.6](http://getbootstrap.com/) built by Twitter.
 
 
 
@@ -105,3 +129,6 @@ body {
 <a name="footnote3">3</a>: [HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 <a name="footnote4">4</a>: [HTML cheatsheet](http://www.simplehtmlguide.com/cheatsheet.php)
+
+<a name="footnote5">5</a>: [What are Frameworks?](http://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html)
+
