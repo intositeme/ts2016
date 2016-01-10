@@ -4,12 +4,12 @@
 * [Introduction](#intro)
 * [HTML](#html)
 * [Frameworks](#frameworks)
-* [Bootstrap](bootstrap)
-* [Assignment](assignment)
+* [Bootstrap](#bootstrap)
+* [Assignment](#assignment)
 
 ****
-
-## Introduction <a name="intro"></a>
+<a name="intro"></a>
+## Introduction 
 
 * What do you think makes a good Website?
 * Do you think you're a good web/interactive/digital designer? Why?
@@ -29,8 +29,8 @@ Developing a website has many stages & specialisations.
 7. Launch
 
 ****
-
-## HTML <a name="html"></a>
+<a name="html"></a>
+## HTML 
 
 * What is HTML?
 * Introduction to HTML elements <sup>[3](#footnote3)</sup> <sup>[4](#footnote4)</sup>
@@ -112,8 +112,8 @@ If you're interested, you can try out a basic tutorial [here](https://developer.
 ##### More on JavaScript in week 3.
 
 ****
-
-## Frameworks <a name="frameworks"></a>
+<a name="frameworks"></a>
+## Frameworks 
 
 A framework is a standardized set of concepts, practices and criteria for dealing with a common type of problem, which can be used as a reference to help us approach and resolve new problems of a similar nature.<sup>[6](#footnote6)</sup>
 
@@ -132,8 +132,8 @@ Frontend frameworks usually consist of a package made up of a structure of files
 ##### We will be using [Bootstrap v3.3.6](http://getbootstrap.com/) built by Twitter.
 
 ****
-
-## Bootstrap <a name="bootstrap"></a>
+<a name="bootstrap"></a>
+## Bootstrap 
 ##### Lets get started. 
 
 1. You will need to download BootStrap [here](https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip), we will be using v3.3.6.
@@ -173,8 +173,8 @@ http://getbootstrap.com/css/#images
 	<img src="..." alt="..." class="img-thumbnail">
 
 ****
-
-## Assignment <a name="assignment"></a>
+<a name="assignment"></a>
+## Assignment 
 1. Think about the website you want to create
 2. Think about the content & how you would want to display it.
 3. Sketch a wireframe layout of your website (photoshop/illustrator jpgs is fine, but a rough sketch is more than sufficient), [reference here](http://www.kimbieler.com/wp-content/uploads/2012/03/athayde-homepage.jpg). Create a new folder `wireframes` and place scan/photo jpgs in. Commit the files to your repository.
