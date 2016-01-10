@@ -1,5 +1,5 @@
 # Week 00: Prerequisites
-***
+
 ## Account
 
 ### 1. GitHub
