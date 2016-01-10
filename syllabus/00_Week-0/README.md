@@ -2,7 +2,7 @@
 
 ## Account
 
-### 1. GitHub
+### 1. GitHub <a name="github"></a>
 Start a [GitHub](https://github.com/join) Account.
 
 ### 2. Slack
@@ -29,7 +29,7 @@ Download either or both
  * [FireFox](https://www.mozilla.org/en-US/firefox/new/)
 
 
-### 3. GitHub Desktop App
+### 3. GitHub Desktop App <a name="githubapp"></a>
 
 1. Download [GitHub Desktop](https://desktop.github.com/) application.
 2. Setup GitHub Desktop to your GitHub account. Instructions [here](https://help.github.com/desktop/guides/getting-started/authenticating-to-github/).
