@@ -31,4 +31,13 @@ By the successful completion of this workshop, students will be able to:
 * 
 
 ## Materials
+Hardware:
+* Computer
+
+Software:
+* [Sublime Text 3](http://www.sublimetext.com/3)
+* Web browser, [Google Chrome](https://www.google.com/chrome/) or [FireFox](https://www.mozilla.org/en-US/firefox/new/)
+* [GitHub Desktop](https://desktop.github.com/)
+
+
 
