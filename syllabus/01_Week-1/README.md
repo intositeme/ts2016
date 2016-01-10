@@ -7,10 +7,6 @@
 * What qualities do you think is needed to be so?
 * UI/UX - What are they? <sup>[1](#footnote1)</sup> <sup>[2](#footnote2)</sup>
 
-
-
-
-
 Developing a website has many stages & specialisations. 
 
 #### Development Stages 
@@ -22,6 +18,15 @@ Developing a website has many stages & specialisations.
 6. Site Testing
 7. Launch
 
+## HTML
+
+* What is HTML?
+* Introduction to HTML elements <sup>[3](#footnote3)</sup> <sup>[4](#footnote4)</sup>
+
+## Frameworks
+
+
+
 
 ****
 ###### Footnotes
@@ -30,3 +35,6 @@ Developing a website has many stages & specialisations.
 
 <a name="footnote2">2</a>: [UX is not UI](http://www.helloerik.com/ux-is-not-ui)
 
+<a name="footnote3">3</a>: [HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+<a name="footnote4">4</a>: [HTML cheatsheet](http://www.simplehtmlguide.com/cheatsheet.php)

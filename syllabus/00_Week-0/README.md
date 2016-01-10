@@ -5,6 +5,13 @@
 ### 1. GitHub
 Start a [GitHub](https://github.com/join) Account.
 
+### 2. Slack
+*extra* 
+
+Slack is a cloud-based team collaboration tool.
+
+Email me with your request to be added to the Slack group. Logins are based by email accounts.
+
 ***
 
 ## Software
