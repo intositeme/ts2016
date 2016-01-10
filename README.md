@@ -8,7 +8,7 @@ Welcome to **Web Development workshop**, [here](https://github.com/intositeme/ts
 ## Workshop Description
 This workshop will focus on acquiring web development skills using [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction), [CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started) & [JavaScript](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics) to create your own personalised web site. 
 
-Students will learn about the practical aspects of creating a website that not only look great on a desktop browser but also making the website [responsive}(https://developer.mozilla.org/en-US/docs/Web/Guide/Responsive_design) for mobile devices.
+Students will learn about the practical aspects of creating a website that not only look great on a desktop browser but also making the website [responsive](https://developer.mozilla.org/en-US/docs/Web/Guide/Responsive_design) for mobile devices.
 
 Think of this workshop as a maker studio where you will exercise your abilities to make a product with code. Different tools will be taught and incorporated into your product. This work will require you to practise and find out more at your own time. Expect to do an assignment from week to week.
 
