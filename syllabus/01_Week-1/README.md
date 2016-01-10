@@ -5,7 +5,7 @@
 * HTML
 * CSS
 * Frameworks
-___
+****
 
 ## Introduction
 
@@ -25,6 +25,8 @@ Developing a website has many stages & specialisations.
 5. **Site Development**
 6. Site Testing
 7. Launch
+
+****
 
 ## HTML
 
@@ -58,6 +60,11 @@ Developing a website has many stages & specialisations.
 * `<p>` - Used to segment [paragraph](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) of text. 
 * `<a>` - [Link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) to part or different page.
 * `<img>` - Insert an [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img). Pay attention to [attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Attributes) for tag
+
+```
+<img src="logo.jpg" alt="Logo">
+```
+
 * `<footer>` - Use to define content for [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 * `<link>` - Specifies relationship between your page and an external resource, mainly CSS used for files. 
  
@@ -79,8 +86,6 @@ Developing a website has many stages & specialisations.
 <script>console.log("hello world!");</script>
 ```
 
-
-
 #### CSS
 Casscading Style Sheets. CSS styles can be included both [inline](https://developer.mozilla.org/en/docs/Web/HTML/Element/style) and by importing it with the `<link>` tag.
 
@@ -95,27 +100,76 @@ body {
 }
 </style>
 ```
+
 ##### More on CSS in week 2.
 
+#### JavaScript
+JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.<sup>[5](#footnote5)</sup>
 
+If you're interested, you can try out a basic tutorial [here](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics).
+
+##### More on JavaScript in week 3.
+
+****
 
 ## Frameworks
 
-A framework is a standardized set of concepts, practices and criteria for dealing with a common type of problem, which can be used as a reference to help us approach and resolve new problems of a similar nature.<sup>[5](#footnote5)</sup>
+A framework is a standardized set of concepts, practices and criteria for dealing with a common type of problem, which can be used as a reference to help us approach and resolve new problems of a similar nature.<sup>[6](#footnote6)</sup>
 
-Frameworks allow us to cut out much of the work and save a lot of time.<sup>[5](#footnote5)</sup>
+Frameworks allow us to cut out much of the work and save a lot of time.<sup>[6](#footnote6)</sup>
 
 #### Front-end Frameworks (or CSS Frameworks)
-Frontend frameworks usually consist of a package made up of a structure of files and folders of standardized code (HTML, CSS, JS documents etc.)<sup>[5](#footnote5)</sup>
+Frontend frameworks usually consist of a package made up of a structure of files and folders of standardized code (HTML, CSS, JS documents etc.)<sup>[6](#footnote6)</sup>
 
 **The usual components are:**
 
-* CSS source code to create a grid: this allows the developer to position the different elements that make up the site design in a simple and versatile fashion.
-* Typography style definitions for HTML elements.
-* Solutions for cases of browser incompatibility so the site displays correctly in all browsers.
-* Creation of standard CSS classes which can be used to style advanced components of the user interface.
+* CSS source code to create a grid: this allows the developer to position the different elements that make up the site design in a simple and versatile fashion.<sup>[6](#footnote6)</sup>
+* Typography style definitions for HTML elements.<sup>[6](#footnote6)</sup>
+* Solutions for cases of browser incompatibility so the site displays correctly in all browsers.<sup>[6](#footnote6)</sup>
+* Creation of standard CSS classes which can be used to style advanced components of the user interface.<sup>[6](#footnote6)</sup>
 
-##### We will be using [Bootstrap v3.6.6](http://getbootstrap.com/) built by Twitter.
+##### We will be using [Bootstrap v3.3.6](http://getbootstrap.com/) built by Twitter.
+
+****
+
+## BootStrap
+##### Lets get started. 
+
+1. You will need to download BootStrap [here](https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip), we will be using v3.3.6.
+2. Unzip the file. This will be your project folder. _(Use this folder and create a new repository and commit it to your [GitHub account](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#github), as outlined in the [pre-requisites](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#githubapp))_
+
+##### Your first page.
+1. Create a new file `index.html`.
+2. Use the base template from [here](https://github.com/intositeme/ts2016/blob/master/syllabus/01_Week-1/base.template.html).
+
+#### Essential Bootstrap Elements
+Lots of Bootstrap basic examples [here](http://getbootstrap.com/getting-started/#examples). 
+
+##### Grid System
+Bootstrap is built on a 12 column [grid system](http://getbootstrap.com/css/#grid-example-basic).
+
+##### Navigation
+Bootstrap provides a variaty of different Navbars to start with. You should view them [here](http://getbootstrap.com/getting-started/#examples-navbars).
+
+##### Containers
+Fixed and Fluid containers
+
+##### Rows
+Use rows to create horizontal groups of columns.
+
+##### Columns
+Content should be placed within columns, and only columns may be immediate children of rows.
+
+##### Buttons
+http://getbootstrap.com/css/#buttons
+
+##### Images
+http://getbootstrap.com/css/#images
+
+
+	<img src="..." alt="..." class="img-rounded">
+	<img src="..." alt="..." class="img-circle">
+	<img src="..." alt="..." class="img-thumbnail">
 
 
 
@@ -130,5 +184,7 @@ Frontend frameworks usually consist of a package made up of a structure of files
 
 <a name="footnote4">4</a>: [HTML cheatsheet](http://www.simplehtmlguide.com/cheatsheet.php)
 
-<a name="footnote5">5</a>: [What are Frameworks?](http://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html)
+<a name="footnote5">5</a>: [Introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
+
+<a name="footnote6">6</a>: [What are Frameworks?](http://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html)
 
