@@ -57,21 +57,37 @@ Developing a website has many stages & specialisations.
 <sup>_importing an external file containing the styles_</sup>
 
 ```
+<!-- importing an external file containing the styles -->
 <link rel="stylesheet" href="css/main.css">
 ```
 
-
 * `<script>` - used to embed or reference an executable [script](https://developer.mozilla.org/en/docs/Web/HTML/Element/script)
 
-<sup>_importing an external file containing JavaScript_</sup>
 
 ```
+<!-- importing an external file containing JavaScript_ -->
 <script src="javascript.js"></script>
+
+<!-- Embedding JavaScript into the document -->
+<script>console.log("hello world!");</script>
 ```
-	
+
+
 
 #### CSS
 Casscading Style Sheets. CSS styles can be included both [inline](https://developer.mozilla.org/en/docs/Web/HTML/Element/style) and by importing it with the `<link>` tag.
+
+```
+<!-- importing an external file containing the styles -->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Embedding styles into the document -->
+<style type="text/css">
+body {
+  color:red;
+}
+</style>
+```
 
 
 ## Frameworks
