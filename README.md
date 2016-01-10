@@ -3,7 +3,7 @@
 	**D-DC304 Technical Studies** - Web Development
 	Tuesdays & Thursday
 	
-Welcome to **Web Development**, [here](https://github.com/intositeme/ts2016) you find the the class syllabus, assignments and materials.
+Welcome to **Web Development workshop**, [here](https://github.com/intositeme/ts2016) you find the the class syllabus, assignments and materials.
 
 ## Workshop Description
 This workshop will focus on acquiring web development skills using [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction), [CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started) & [JavaScript](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics) to create your own personalised web site. 
@@ -16,7 +16,7 @@ Think of this workshop as a maker studio where you will exercise your abilities 
 
 | WEEK | TOPIC | ASSIGNMENT     |
 |:----:|:-----:|:--------------:|
-|  01  | Presentation & HTML: Introduction to workshop, review syllabus, discuss technical requirements & tools used, and present basics of Web Development process. Start coding HTML! | Read 01-html.md & do the assignment |
+|  01  | Presentation & HTML: Introduction to workshop, review syllabus, discuss technical requirements & tools used, and present basics of Web Development process. Start coding HTML! | Read [class material](https://github.com/intositeme/ts2016/tree/master/syllabus/01_Week-1) & do the assignment |
 |  02  | CSS: Explore Casscading style sheets and learn how to use it to style your website. | Read 02-css.md & do the assignment |
 |  03  | JS: Start adding effects to your website using JavaScript | Read 03-javascript.md & do the assignment |
 |  04  | Advance JS: Learn how to make use the wide resources of the web to find Javascript libraries to add effects to your website | Read 04-javascript.md |
