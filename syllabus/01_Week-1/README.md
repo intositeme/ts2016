@@ -69,8 +69,7 @@ Developing a website has many stages & specialisations.
 
 * `<footer>` - Use to define content for [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 * `<link>` - Specifies relationship between your page and an external resource, mainly CSS used for files. 
- 
-<sup>_importing an external file containing the styles_</sup>
+
 
 ```
 <!-- importing an external file containing the styles -->
