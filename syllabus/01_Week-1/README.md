@@ -6,6 +6,7 @@
 * CSS
 * Frameworks
 * Bootstrap
+* Assignment
 
 ****
 
@@ -137,7 +138,7 @@ Frontend frameworks usually consist of a package made up of a structure of files
 ##### Lets get started. 
 
 1. You will need to download BootStrap [here](https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip), we will be using v3.3.6.
-2. Unzip the file. This will be your project folder. _(Use this folder and create a new repository and commit it to your [GitHub account](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#github), as outlined in the [pre-requisites](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#githubapp))_
+2. Unzip the file. This will be your project folder. Rename the folder to `your_name-ts2016` _(Use this folder and create a new repository and commit it to your [GitHub account](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#github), as outlined in the [pre-requisites](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#githubapp))_
 
 ##### Your first page.
 1. Create a new file `index.html`.
@@ -172,7 +173,13 @@ http://getbootstrap.com/css/#images
 	<img src="..." alt="..." class="img-circle">
 	<img src="..." alt="..." class="img-thumbnail">
 
+****
 
+## Assignment
+1. Think about the website you want to create
+2. Think about the content & how you would want to display it.
+3. Sketch a wireframe layout of your website (photoshop/illustrator jpgs is fine, but a rough sketch is more than sufficient), [reference here](http://www.kimbieler.com/wp-content/uploads/2012/03/athayde-homepage.jpg). Create a new folder `wireframes` and place scan/photo jpgs in. Commit the files to your repository.
+4. Edit your index.html file and try to layout your wireframe with Bootstrap. Commit files to your repository.
 
 ****
 ###### Footnotes
