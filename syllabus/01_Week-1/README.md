@@ -58,9 +58,9 @@ Once the Wireframes & Visual Design has been approved, you will start to code yo
 
 #### What is HTML
 
-_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_
 
-	HTML, which stands for HyperText Markup Language, is the most basic building block of a webpage and used for creating and visually representing a webpage. It determines the content of a webpage , but not its functionality.
+
+> HTML, which stands for HyperText Markup Language, is the most basic building block of a webpage and used for creating and visually representing a webpage. It determines the content of a webpage , but not its functionality. _[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_
 
 ![html tag](https://mdn.mozillademos.org/files/8573/anatomy-of-an-html-element.png "HTML Tag struture")
 
