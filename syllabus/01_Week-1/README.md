@@ -56,6 +56,14 @@ Once the Wireframes & Visual Design has been approved, you will start to code yo
 * What is HTML?
 * Introduction to HTML elements <sup>[3](#footnote3)</sup> <sup>[4](#footnote4)</sup>
 
+#### What is HTML
+
+_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_
+
+	HTML, which stands for HyperText Markup Language, is the most basic building block of a webpage and used for creating and visually representing a webpage. It determines the content of a webpage , but not its functionality.
+
+![html tag](https://mdn.mozillademos.org/files/8573/anatomy-of-an-html-element.png "HTML Tag struture")
+
 
 #### Simple HTML Document
 
@@ -73,7 +81,7 @@ Once the Wireframes & Visual Design has been approved, you will start to code yo
 </html>
 ```
 
-#### HTML Elements
+#### HTML Elements/Tags
 
 * `<html>` - main HTML [document root](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html) that everything should be inside
 * `<head>` - contains [document information](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head), CSS, JS, search keywords etc.
