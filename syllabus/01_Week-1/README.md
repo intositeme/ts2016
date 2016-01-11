@@ -213,7 +213,6 @@ Content should be placed within columns, and only columns may be immediate child
 	  	<div class="col-md-6">.col-md-6</div>
 	</div>
 </div>
-
 ```
 
 ###### Responsive Columns

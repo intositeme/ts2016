@@ -8,9 +8,9 @@ Start a [GitHub](https://github.com/join) Account.
 ### 2. Slack
 *extra* 
 
-Slack is a cloud-based team collaboration tool.
+[Slack](https://slack.com/downloads) is a cloud-based team collaboration tool.
 
-Email me with your request to be added to the Slack group. Logins are based by email accounts.
+Email me with your request to be added to the [Slack group](https://lasalle-techstudies.slack.com/). Logins are based by email accounts.
 
 ***
 
