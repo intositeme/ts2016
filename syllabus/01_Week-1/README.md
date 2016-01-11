@@ -285,8 +285,7 @@ Example - [Preview](http://intositeme.github.io/static-bootstrap/example-nav.htm
   		</div>
   	</nav>
   	
-<iframe height='221' scrolling='no' src='//codepen.io/intosite/embed/jWwEoM/?height=221&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/intosite/pen/jWwEoM/'>Bootstrap - Navbar base</a> by Isaac (<a href='http://codepen.io/intosite'>@intosite</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+
   	
 ###### Navbar header
 The nav header sits within the Navbar's container. This is where you would place your brand name or logo. 
