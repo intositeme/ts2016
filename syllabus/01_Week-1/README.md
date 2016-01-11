@@ -155,9 +155,6 @@ Lots of Bootstrap basic examples [here](http://getbootstrap.com/getting-started/
 ##### Grid System
 Bootstrap is built on a 12 column [grid system](http://getbootstrap.com/css/#grid-example-basic).
 
-##### Navigation
-Bootstrap provides a variaty of different Navbars to start with. You should view them [here](http://getbootstrap.com/getting-started/#examples-navbars).
-
 ##### Containers
 Fixed and Fluid containers
 
@@ -228,7 +225,16 @@ Columns resizes according to browser size.
 </div>
 ```
 
+##### Navigation
+Bootstrap provides a variaty of different Navbars to start with. You should view them [here](http://getbootstrap.com/getting-started/#examples-navbars).
 
+**Main Nav Container**
+
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+  		...
+  		</div>
+  	</nav>
 
 ##### Buttons
 http://getbootstrap.com/css/#buttons
