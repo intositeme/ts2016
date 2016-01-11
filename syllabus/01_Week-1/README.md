@@ -28,6 +28,25 @@ Developing a website has many stages & specialisations.
 6. Site Testing
 7. Launch
 
+#### Wireframes & Site architecture
+A website wireframe, is a visual guide that represents the skeletal framework of a website. Wireframes are created for the purpose of arranging elements to best accomplish a particular purpose: business objective and a creative idea. 
+
+The wireframe depicts the page layout or arrangement of the website’s content, including interface elements and navigational systems, and how they work together.
+
+[More reading](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399).
+
+Online tool, [Wireframe.cc](https://wireframe.cc) you can choose to use. Sketching with pen and paper is fine too. A [sample here](https://wireframe.cc/oSR3Bx). _* note: Others can edit your sketch if they have the link._ 
+
+#### Visual Design
+After outlining and planning the content of your website requirements, this stage is where you will start to design how it will look.
+
+Most of the time you will design your website based off the wireframes. As the wireframes determines the what will be needed in the website. You **should not** restrict your design layout to the wireframe's layout. Feel free to explore.
+
+This process usually involves quite a bit of review approval cycles with your Creative/Art Director & Clients. 
+
+#### Site Development
+Once the Wireframes & Visual Design has been approved, you will start to code your website. This is where the workshop begins.
+
 ****
 
 <a name="html"></a>
@@ -104,6 +123,21 @@ body {
 </style>
 ```
 
+##### Classes
+What are [CSS classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)?
+
+CSS classes are used to specify what CSS styles a specific element should use. In your inline CSS style or external .css file, you will use CSS class selectors to match an element based on the contents of the element's class attribute.
+
+###### CSS
+	span.classy {
+	  background-color: red;
+	}
+###### HTML
+	<span class="classy">Here's a span with some text.</span>
+	<span>Here's another.</span
+	
+[Example on Codepen](http://codepen.io/intosite/pen/bERNJV)
+
 ##### More on CSS in week 2.
 
 #### JavaScript
@@ -141,6 +175,7 @@ Frontend frameworks usually consist of a package made up of a structure of files
 
 ## Bootstrap 
 ##### Lets get started. 
+Live Samples on [CodePen](http://codepen.io/collection/XLYZmz/)
 
 1. You will need to download BootStrap [here](https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip), we will be using v3.3.6.
 2. Unzip the file. This will be your project folder. Rename the folder to `your_name-ts2016` _(Use this folder and create a new repository and commit it to your [GitHub account](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#github), as outlined in the [pre-requisites](https://github.com/intositeme/ts2016/tree/master/syllabus/00_Week-0#githubapp))_
@@ -157,6 +192,7 @@ Bootstrap is built on a 12 column [grid system](http://getbootstrap.com/css/#gri
 
 ##### Containers
 Fixed and Fluid containers
+Example - [Interactive CodePen](http://codepen.io/intosite/pen/NxgPQN)
 
 ```
 <!-- Fixed width container -->
@@ -228,20 +264,44 @@ Columns resizes according to browser size.
 ##### Navigation
 Bootstrap provides a variaty of different Navbars to start with. You should view them [here](http://getbootstrap.com/getting-started/#examples-navbars).
 
-**Main Nav Container**
+##### Navbar
+The `nav.navbar` is it's own unique container, thus it is **not** required to sit with in a **container**.
+
+###### Main Navbar Container
+Example - [Preview](http://intositeme.github.io/static-bootstrap/example-nav.html) & [Code](https://github.com/intositeme/static-bootstrap/blob/master/example-nav.html) & [Interactive CodePen](http://codepen.io/intosite/pen/jWwEoM)
 
 	<nav class="navbar navbar-default">
+		<!-- The container class can be fluid or fixed, depending on requirements -->
   		<div class="container-fluid">
   		...
   		</div>
   	</nav>
+  	
+###### Navbar header
+The nav header sits within the Navbar's container. This is where you would place your brand name or logo. 
+
+Example - [Preview](http://intositeme.github.io/static-bootstrap/example-nav__links.html) & [Code](https://github.com/intositeme/static-bootstrap/blob/master/example-nav__links.html) & [Interactive CodePen](http://codepen.io/intosite/pen/xZrbNj)
+
+	 	<div class="navbar-header">
+	 		<!-- This is the Mobile nav icon that will only display when the browser size is 'sm' -->
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<!-- You can change the"Brand Name" text to insert an image of your logo -->
+      		<a class="navbar-brand" href="#">Brand Name</a>
+      		<!-- <a class="navbar-brand" href="#">Brand Name</a> -->
+    	</div>
+    	
+
 
 ##### Buttons
 http://getbootstrap.com/css/#buttons
 
 ##### Images
 http://getbootstrap.com/css/#images
-
 
 	<img src="..." alt="..." class="img-rounded">
 	<img src="..." alt="..." class="img-circle">
