@@ -311,7 +311,17 @@ Example - [Preview](http://intositeme.github.io/static-bootstrap/example-nav__li
 http://getbootstrap.com/css/#buttons
 
 ##### Images
-http://getbootstrap.com/css/#images
+Images should sit within your Columns.
+
+Example - [Preview](http://codepen.io/intosite/full/qbPMMR/) & [Interactive CodePen](http://codepen.io/intosite/pen/qbPMMR?editors=110)
+
+```
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-4 test-block"><img src="http://placehold.it/350x150"/>
+    </div>
+  </div>
+```
+Bootstrap provides some utility image classes that allows you to shape your images.
 
 	<img src="..." alt="..." class="img-rounded">
 	<img src="..." alt="..." class="img-circle">
