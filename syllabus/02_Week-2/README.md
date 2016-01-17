@@ -92,6 +92,23 @@ Lets select and import a font!
 
 ### CSS Trasitions
 
+Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. CSS transitions, provide a way to control animation speed when changing CSS properties.
+
+	transition: all 1s ease;
+
+Live Samples on [CodePen](http://codepen.io/intosite/pen/jWGoab?editors=110)
+
+**Open up the Live Sample and play around. Try creating your own animation for the last box .my-own-transition**
+
+Some properties you can animate
+
+* width
+* height
+* colors
+* padding/margin
+* positions
+
+
 ****
 
 <a name="bootstrap"></a>
