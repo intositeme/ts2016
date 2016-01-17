@@ -100,36 +100,36 @@ Once the Wireframes & Visual Design has been approved, you will start to code yo
 * `<link>` - Specifies relationship between your page and an external resource, mainly CSS used for files. 
 
 
-```
-<!-- importing an external file containing the styles -->
-<link rel="stylesheet" href="css/main.css">
-```
+
+	<!-- importing an external file containing the styles -->
+	<link rel="stylesheet" href="css/main.css">
+
 
 * `<script>` - used to embed or reference an executable [script](https://developer.mozilla.org/en/docs/Web/HTML/Element/script)
 
 
-```
-<!-- importing an external file containing JavaScript_ -->
-<script src="javascript.js"></script>
 
-<!-- Embedding JavaScript into the document -->
-<script>console.log("hello world!");</script>
-```
+	<!-- importing an external file containing JavaScript_ -->
+	<script src="javascript.js"></script>
+
+	<!-- Embedding JavaScript into the document -->
+	<script>console.log("hello world!");</script>
+
 
 #### CSS
 Casscading Style Sheets. CSS styles can be included both [inline](https://developer.mozilla.org/en/docs/Web/HTML/Element/style) and by importing it with the `<link>` tag.
 
-```
-<!-- importing an external file containing the styles -->
-<link rel="stylesheet" href="css/main.css">
 
-<!-- Embedding styles into the document -->
-<style type="text/css">
-body {
-  color:red;
-}
-</style>
-```
+	<!-- importing an external file containing the styles -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Embedding styles into the document -->
+	<style type="text/css">
+		body {
+  			color:red;
+		}
+	</style>
+
 
 ##### Classes
 What are [CSS classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)?
@@ -202,72 +202,72 @@ Bootstrap is built on a 12 column [grid system](http://getbootstrap.com/css/#gri
 Fixed and Fluid containers
 Example - [Interactive CodePen](http://codepen.io/intosite/pen/NxgPQN)
 
-```
-<!-- Fixed width container -->
-<div class="container"> </div>
 
-<!-- Fixed width container -->
-<div class="container-fluid"> </div>
-```
+	<!-- Fixed width container -->
+	<div class="container"> </div>
+
+	<!-- Fixed width container -->
+	<div class="container-fluid"> </div>
+
 
 ##### Rows
 Use rows to create horizontal groups of columns.
 
-```
-<div class="container-fluid">
-  <div class="row">
-    ...
-  </div>
-  <div class="row">
-    ...
-  </div>
-</div>
-```
+
+	<div class="container-fluid">
+  		<div class="row">
+    		...
+  		</div>
+  		<div class="row">
+    		...
+  		</div>
+	</div>
+
 
 ##### Columns
 Content should be placed within columns, and only columns may be immediate children of rows.
 
-```
-<!-- Put this style into the header of the document to preview the columns -->
-<style>
-	.row {
-		background-color: rgba(86, 61, 124, 0.15);
-		border: 1px solid rgba(86, 61, 124, 0.2);
-	}
-</style>
-```
+
+	<!-- Put this style into the header of the document to preview the columns -->
+	<style>
+		.row {
+			background-color: rgba(86, 61, 124, 0.15);
+			border: 1px solid rgba(86, 61, 124, 0.2);
+		}
+	</style>
 
 
-```
-<div class="container-fluid">
-  	<div class="row">
-  		<div class="col-md-8">.col-md-8</div>
-  		<div class="col-md-4">.col-md-4</div>
+
+
+	<div class="container-fluid">
+  		<div class="row">
+  			<div class="col-md-8">.col-md-8</div>
+  			<div class="col-md-4">.col-md-4</div>
+		</div>
+		<div class="row">
+  			<div class="col-md-4">.col-md-4</div>
+  			<div class="col-md-4">.col-md-4</div>
+  			<div class="col-md-4">.col-md-4</div>
+		</div>
+		<div class="row">
+ 			<div class="col-md-6">.col-md-6</div>
+	 	 	<div class="col-md-6">.col-md-6</div>
+		</div>
 	</div>
-	<div class="row">
-  		<div class="col-md-4">.col-md-4</div>
-  		<div class="col-md-4">.col-md-4</div>
-  		<div class="col-md-4">.col-md-4</div>
-	</div>
-	<div class="row">
- 		<div class="col-md-6">.col-md-6</div>
-	  	<div class="col-md-6">.col-md-6</div>
-	</div>
-</div>
-```
+
 
 ###### Responsive Columns
 Columns resizes according to browser size.
 
-```
-<div class="container-fluid">
-	<div class="row">
-  		<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+
+	<div class="container-fluid">
+		<div class="row">
+  			<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+  			<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+  			<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
+		</div>
 	</div>
-</div>
-```
+
 
 ##### Navigation
 Bootstrap provides a variaty of different Navbars to start with. You should view them [here](http://getbootstrap.com/getting-started/#examples-navbars).
@@ -309,18 +309,39 @@ Example - [Preview](http://intositeme.github.io/static-bootstrap/example-nav__li
 
 ##### Buttons
 http://getbootstrap.com/css/#buttons
+Bootstrap has some button styles which you can use. More info [here](http://getbootstrap.com/css/#buttons).
+
+Example - [Interactive CodePen](http://codepen.io/intosite/pen/JGrmPJ?editors=110)
+
+	<a class="btn btn-default" href="#" role="button">Link</a>
+	<button class="btn btn-default" type="submit">Button</button>
+	
+###### Button types
+Bootstrap provides some pre-styled button types which you can use to keep your design consistant.
+
+	.btn-default
+	.btn-primary
+	.btn-success
+	.btn-info
+	.btn-warning
+	.btn-danger
+	.btn-link
 
 ##### Images
 Images should sit within your Columns.
 
+For layout purposes, you can make use of this place holder tool.
+`http://placehold.it/350x150`
+
 Example - [Preview](http://codepen.io/intosite/full/qbPMMR/) & [Interactive CodePen](http://codepen.io/intosite/pen/qbPMMR?editors=110)
 
-```
-<div class="row">
-    <div class="col-sm-4 col-sm-offset-4 test-block"><img src="http://placehold.it/350x150"/>
-    </div>
-  </div>
-```
+
+	<div class="row">
+    	<div class="col-sm-4 col-sm-offset-4 test-block"><img src="http://placehold.it/350x150"/>
+   		</div>
+  	</div>
+
+
 Bootstrap provides some utility image classes that allows you to shape your images.
 
 	<img src="..." alt="..." class="img-rounded">
