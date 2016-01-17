@@ -92,11 +92,17 @@ Lets select and import a font!
 
 ### CSS Trasitions
 
-Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. CSS transitions, provide a way to control animation speed when changing CSS properties.
+Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), provide a way to control animation speed when changing CSS properties.
 
 	transition: all 1s ease;
 
 Live Samples on [CodePen](http://codepen.io/intosite/pen/jWGoab?editors=110)
+
+In the Live Sample, I'm using the `:hover` pseudo class to trigger changes to the class properties, and using css transitions to animate the changes smoothly.
+
+Transitions have [timing-functions](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function#Keywords_for_common_timing-functions), also known as 'easing'. This determines how fast the animation starts or slow down towards the end.
+
+There are a few preset easings you can use, for more advance or custom easings, you can find them [here](http://easings.net/).
 
 **Open up the Live Sample and play around. Try creating your own animation for the last box .my-own-transition**
 
@@ -107,6 +113,11 @@ Some properties you can animate
 * colors
 * padding/margin
 * positions
+
+**Advance**
+
+You can make use of [CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) to create more complex animations. Not needing to use the :hover pseudo class.
+
 
 
 ****
