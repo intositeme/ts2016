@@ -4,6 +4,7 @@
 * [Introduction](#intro)
 * [Import your own stylesheet](#import)
 * [CSS Basics](#basics)
+* [Bootstrap Extended](#bootstrap)
 * 
 
 ****
@@ -87,3 +88,13 @@ Lets select and import a font!
 	`<link href='https://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'> `
 8.	Open your `index.html` file and paste the code you copied. It should be placed before your `style.css` import code.
 9.	Use it in your `style.css` file. Under the **selector** which you like to change the font of, use the `font-family` property and set it to the name of the font you've use imported. Google Fonts `Step 4` `font-family: 'Raleway', sans-serif;`
+
+
+### CSS Trasitions
+
+****
+
+<a name="bootstrap"></a>
+## Bootstrap Extended
+
+### Responsive elements
