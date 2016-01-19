@@ -135,6 +135,16 @@ You can make use of [CSS animations](https://developer.mozilla.org/en-US/docs/We
 <a name="bootstrap"></a>
 ## Bootstrap Extended
 
+### Settings
+
+You have a few options to customise how Bootstrap looks. 
+
+1. The most comprehensive method is by using [Bootstrap's Customize](http://getbootstrap.com/customize/) tool. After which you will download the files and replace those in your css folder.
+2. Y
+
+http://codepen.io/intosite/pen/PZOjPo?editors=100
+
+
 ### Responsive elements
 
 Live Samples on [CodePen](http://codepen.io/intosite/pen/jWGjOy?editors=110)
@@ -143,12 +153,14 @@ Bootstrap provides Column classes that makes it easy to layout your website that
 
 The points where the browser size triggers a change is known as a **breakpoint**.
 
-By default Bootstrap's breakpoints are as follow
+By default [Bootstrap's breakpoints](http://getbootstrap.com/css/#grid-options) are as follow
 
 
 -|Extra small devices Phones (<768px) | Small devices Tablets (≥768px) | Medium devices Desktops (≥992px) | Large devices Desktops (≥1200px)
 ---------|----------|----------|-----------|---------
+Class prefix | `.col-xs-` | `.col-sm-` | `.col-md-` | `.col-lg-`
 
+The number that comes after each *class prefix* determines the column's grid width.
 
       
 
