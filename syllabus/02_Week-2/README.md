@@ -57,7 +57,17 @@ Live Samples on [CodePen](http://codepen.io/intosite/pen/eJGPGv?editors=110)
 2. [**Class selectors**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class) `<div class="my-class"></div>` the class selector is `my-class`
 3. [**ID selectors**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) `<div id="special-item"></div>` the ID for this element is `special-item`. Generally we do not use IDs to style elements, but it's not a hard and fast rule.
 4. [**Pseudo-classes selectors**](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) Pseudo class is a keyword added to selectors that specifies a special state of the element to be selected. For example :hover will apply a style when the user hovers over the element specified by the selector.
+
+**Task**
+
+Using the Live Sample, try to style Blocks 1-4
+
+* Set the background color of Block **1 & 3** to red
+* Set Block 2 background to blue
+* Set Block 4 background to black & text to white
+* Add a hover state to them
  
+
 
 
 ### Fonts
@@ -126,3 +136,31 @@ You can make use of [CSS animations](https://developer.mozilla.org/en-US/docs/We
 ## Bootstrap Extended
 
 ### Responsive elements
+
+Live Samples on [CodePen](http://codepen.io/intosite/pen/jWGjOy?editors=110)
+
+Bootstrap provides Column classes that makes it easy to layout your website that response to changes to a user's browser screen size.
+
+The points where the browser size triggers a change is known as a **breakpoint**.
+
+By default Bootstrap's breakpoints are as follow
+
+
+-|Extra small devices Phones (<768px) | Small devices Tablets (≥768px) | Medium devices Desktops (≥992px) | Large devices Desktops (≥1200px)
+---------|----------|----------|-----------|---------
+
+
+      
+
+	<div class="container-fluid">
+		<div class="row">
+  			<div class="col-sm-4 col-md-3">.col-sm-4 .col-md-3</div>
+  			<div class="col-sm-4 col-md-3">.col-sm-4 .col-md-3</div>
+  			<div class="col-sm-4 col-md-3">.col-sm-4 .col-md-3</div>
+  			<div class="col-sm-4 col-md-3">.col-sm-4 .col-md-3</div>
+		</div>
+	</div>
+
+
+
+

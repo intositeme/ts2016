@@ -257,17 +257,9 @@ Content should be placed within columns, and only columns may be immediate child
 
 
 ###### Responsive Columns
-Columns resizes according to browser size.
+Bootstrap provides Columns that resizes according to a browser size. 
 
-
-	<div class="container-fluid">
-		<div class="row">
-  			<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
-  			<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
-  			<div class="col-xs-12 col-sm-6 col-md-4">.col-xs-12 .col-sm-6 .col-md-4</div>
-		</div>
-	</div>
-
+More will be covered in Week 2.
 
 ##### Navigation
 Bootstrap provides a variaty of different Navbars to start with. You should view them [here](http://getbootstrap.com/getting-started/#examples-navbars).
