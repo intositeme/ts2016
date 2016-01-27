@@ -140,9 +140,16 @@ You can make use of [CSS animations](https://developer.mozilla.org/en-US/docs/We
 You have a few options to customise how Bootstrap looks. 
 
 1. The most comprehensive method is by using [Bootstrap's Customize](http://getbootstrap.com/customize/) tool. After which you will download the files and replace those in your css folder.
-2. Y
+2. Advance method is to use [SASS](http://sass-lang.com/) *out of scope of the class*
+3. Or you can look for themes online and use them with the base Bootstrap files.
 
-http://codepen.io/intosite/pen/PZOjPo?editors=100
+Some online theme resources
+
+* http://bootswatch.com/
+* http://startbootstrap.com
+
+Live Samples on [CodePen](http://codepen.io/intosite/pen/PZOjPo?editors=100) [Sample usage of a template](http://codepen.io/intosite/pen/qbogeq?editors=1100)
+
 
 
 ### Responsive elements
