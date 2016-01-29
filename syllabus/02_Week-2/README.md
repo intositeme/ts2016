@@ -126,9 +126,24 @@ Some properties you can animate
 
 **Advance**
 
-You can make use of [CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) to create more complex animations. Not needing to use the :hover pseudo class.
+You can make use of [CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) to create more complex animations. 
+
+A CSS animation applied to a SVG element [here](http://codepen.io/dieghh/pen/YwLeyP).
 
 
+### Background Images
+
+You can use images as a background for html elements instead of embedding them with the **<img>** tags.
+
+There are a few things to take note to style your [background images](https://developer.mozilla.org/en/docs/Web/CSS/background-image) to have it fit your layout & design.
+
+To make use of a background image, you'll need to add the `background-image` style to your css selector style.
+
+*	[background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) : *top* | *right* | *bottom* | *left* | *0%* | *0% 0%*
+* [background-attachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment) : *scroll* | *fixed*
+* [background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat) : *repeat* | *no-repeat* | [and more](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat#Values)
+
+Live Samples on [CodePen](http://codepen.io/intosite/pen/mVLopL?editors=1100)
 
 ****
 
@@ -151,7 +166,6 @@ Some online theme resources
 Live Samples on [CodePen](http://codepen.io/intosite/pen/PZOjPo?editors=100) [Sample usage of a template](http://codepen.io/intosite/pen/qbogeq?editors=1100)
 
 
-
 ### Responsive elements
 
 Live Samples on [CodePen](http://codepen.io/intosite/pen/jWGjOy?editors=110)
@@ -169,8 +183,6 @@ Class prefix | `.col-xs-` | `.col-sm-` | `.col-md-` | `.col-lg-`
 
 The number that comes after each *class prefix* determines the column's grid width.
 
-      
-
 	<div class="container-fluid">
 		<div class="row">
   			<div class="col-sm-4 col-md-3">.col-sm-4 .col-md-3</div>
@@ -181,5 +193,13 @@ The number that comes after each *class prefix* determines the column's grid wid
 	</div>
 
 
+### Columns
 
+Live Samples on [CodePen](http://codepen.io/intosite/pen/wMjOKX?editors=1000)
 
+You can move columns to the right by offsetting them by a predefined number of columns using the `.col-**-offset-*` class.
+
+	<!--Move the current column 1 column to the right for **sm** size-->
+	.col-sm-offset-1
+	<!--Move the current column 2 column to the right for **md** size-->
+	.col-md-offset-2
