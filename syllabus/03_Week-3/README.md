@@ -1,4 +1,4 @@
-# Week 02: JavaScript
+# Week 03: JavaScript
 
 #### Outline
 * [Introduction](#intro)
