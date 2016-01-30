@@ -29,7 +29,7 @@ Here's a [quick cheatsheet](https://media-mediatemple.netdna-ssl.com/wp-content/
 ##### Lets get started.
 
 1. Open your **index.html** [file](https://github.com/intositeme/ts2016/blob/master/syllabus/01_Week-1/base.template.html) that was created last week. 
-2. Add the line to [import your new external stylesheet](https://developer.mozilla.org/en-US/Learn/CSS/Using_CSS_in_a_web_page#The_%3Clink%3E_tag) to the *index.html* file. *Inside the <head> tag, after all the other <link> tags*
+2. Add the line to [import your new external stylesheet](https://developer.mozilla.org/en-US/Learn/CSS/Using_CSS_in_a_web_page#The_%3Clink%3E_tag) to the *index.html* file. *Inside the `<head>` tag, after all the other `<link>` tags*
 `<link href="css/style.css" rel="stylesheet">`
 
 3. Go to your `css` folder and create a new file named `style.css`
