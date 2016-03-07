@@ -117,7 +117,7 @@ Once the Wireframes & Visual Design has been approved, you will start to code yo
 
 
 #### CSS
-Casscading Style Sheets. CSS styles can be included both [inline](https://developer.mozilla.org/en/docs/Web/HTML/Element/style) and by importing it with the `<link>` tag.
+Cascading Style Sheets. CSS styles can be included both [inline](https://developer.mozilla.org/en/docs/Web/HTML/Element/style) and by importing it with the `<link>` tag.
 
 
 	<!-- importing an external file containing the styles -->
@@ -297,6 +297,31 @@ Example - [Preview](http://intositeme.github.io/static-bootstrap/example-nav__li
       		<!-- <a class="navbar-brand" href="#">Brand Name</a> -->
     	</div>
     	
+##### Text
+
+######Headers
+
+Bootstrap has provided a set of font styling for Typography. The hierarchy of the headers determines the size of the text.
+
+A good read on [Typography Hierarchy here](http://webdesign.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636).
+
+More on Bootstrap's [Typography classes here](http://getbootstrap.com/css/#type).
+	
+	<h1>Header 1</h1>
+	<h2>Header 2</h2>
+	<h3>Header 3</h3>
+	<h4>Header 4</h4>
+	<h5>Header 5</h5>
+	<h6>Header 3</h6>
+
+######Body Text
+
+	<p class="text-left">Left aligned text.</p>
+	<p class="text-center">Center aligned text.</p>
+	<p class="text-right">Right aligned text.</p>
+	<p class="text-justify">Justified text.</p>
+	<p class="text-nowrap">No wrap text.</p>
+	
 
 
 ##### Buttons
