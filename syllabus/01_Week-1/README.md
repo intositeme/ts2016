@@ -35,6 +35,8 @@ The wireframe depicts the page layout or arrangement of the website’s content,
 
 [More reading](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399).
 
+[Wireframe Inspiration](https://medium.com/muzli-design-inspiration/quality-wireframes-inspiration-a91f5d78be37#.3ordv23se)
+
 Online tool, [Wireframe.cc](https://wireframe.cc) you can choose to use. Sketching with pen and paper is fine too. A [sample here](https://wireframe.cc/oSR3Bx). _* note: Others can edit your sketch if they have the link._ 
 
 #### Visual Design
@@ -92,29 +94,29 @@ Once the Wireframes & Visual Design has been approved, you will start to code yo
 * `<a>` - [Link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) to part or different page.
 * `<img>` - Insert an [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img). Pay attention to [attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Attributes) for tag
 
-```
-<img src="logo.jpg" alt="Logo">
-```
+	```
+	<img src="logo.jpg" alt="Logo">
+	```
 
 * `<footer>` - Use to define content for [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 * `<link>` - Specifies relationship between your page and an external resource, mainly CSS used for files. 
 
 
 
-	<!-- importing an external file containing the styles -->
-	<link rel="stylesheet" href="css/main.css">
+		<!-- importing an external file containing the styles -->
+		<link rel="stylesheet" href="css/main.css">
 
 
 * `<script>` - used to embed or reference an executable [script](https://developer.mozilla.org/en/docs/Web/HTML/Element/script)
 
+		<!-- importing an external file containing JavaScript_ -->
+		<script src="javascript.js"></script>
 
+		<!-- Embedding JavaScript into the document -->
+		<script>console.log("hello world!");</script>
 
-	<!-- importing an external file containing JavaScript_ -->
-	<script src="javascript.js"></script>
-
-	<!-- Embedding JavaScript into the document -->
-	<script>console.log("hello world!");</script>
-
+	
+	
 
 #### CSS
 Cascading Style Sheets. CSS styles can be included both [inline](https://developer.mozilla.org/en/docs/Web/HTML/Element/style) and by importing it with the `<link>` tag.
