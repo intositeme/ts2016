@@ -50,7 +50,7 @@ You can apply styling to elements selectively using [**Selectors**](https://deve
 
 There are few selectors
 
-Live Samples on [CodePen](http://codepen.io/intosite/pen/eJGPGv?editors=110)
+Live Samples on [CodePen](http://codepen.io/intosite/pen/RaGdVR?editors=1100)
 
 
 1. [**Elements**](https://developer.mozilla.org/en/docs/Web/HTML/Element) for eg. `div`, `img`, `p` 
@@ -60,7 +60,7 @@ Live Samples on [CodePen](http://codepen.io/intosite/pen/eJGPGv?editors=110)
 
 **Task**
 
-Using the Live Sample, try to style Blocks 1-4
+Using [this Live Sample](http://codepen.io/anon/pen/ZWpPLM?editors=1100), try to style Blocks 1-4
 
 * Set the background color of Block **1 & 3** to red
 * Set Block 2 background to blue
@@ -149,6 +149,10 @@ Live Samples on [CodePen](http://codepen.io/intosite/pen/mVLopL?editors=1100)
 
 <a name="bootstrap"></a>
 ## Bootstrap Extended
+
+### Cheatsheet
+
+A good resource of Bootstrap 3 classes available [here](http://creativealive.com/wp-content/uploads/2014/01/bootstrap3-cheatsheet.pdf).
 
 ### Settings
 
