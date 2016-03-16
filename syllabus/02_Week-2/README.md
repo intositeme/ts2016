@@ -58,6 +58,13 @@ Live Samples on [CodePen](http://codepen.io/intosite/pen/RaGdVR?editors=1100)
 3. [**ID selectors**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) `<div id="special-item"></div>` the ID for this element is `special-item`. Generally we do not use IDs to style elements, but it's not a hard and fast rule.
 4. [**Pseudo-classes selectors**](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) Pseudo class is a keyword added to selectors that specifies a special state of the element to be selected. For example :hover will apply a style when the user hovers over the element specified by the selector.
 
+**Selector Hierarchy**
+CSS applies defined styles based on a hierarchy. For eg. IDs takes precidence over classes.
+
+More explanation [here](https://css-tricks.com/specifics-on-css-specificity/).
+
+Example [here](http://codepen.io/intosite/pen/rejajX?editors=1100).
+
 **Task**
 
 Using [this Live Sample](http://codepen.io/anon/pen/ZWpPLM?editors=1100), try to style Blocks 1-4
@@ -207,3 +214,12 @@ You can move columns to the right by offsetting them by a predefined number of c
 	.col-sm-offset-1
 	<!--Move the current column 2 column to the right for **md** size-->
 	.col-md-offset-2
+	
+	
+<a name="assignment"></a>
+## Assignment 
+1. Look for online references on websites you like. 
+2. Do a mock up of the design of your website based on the wireframes you made in Week 1.
+3. Create your own stylesheet and style the HTML index.html file you did for Week 1's assignment to resemble your design.
+
+
