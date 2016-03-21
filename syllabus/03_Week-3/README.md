@@ -95,6 +95,30 @@ jQuery takes a lot of common tasks that require many lines of JavaScript code to
 
 jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
 
+### Introduction to jQuery
+
+#### Selectors & Adding Click Events
+Live sample on [CodePen](http://codepen.io/intosite/pen/VedxXV?editors=1010)
+
+	$('selector').functionToExecute();
+	
+To start using jQuery, you will start with the `$()` function. To target elements, you'll provide the **selector** parameter inside the `()`. The parameter is usually a **string** much like a **CSS Selector**, or at times it can be an **object**, one such object is the `document` or `window` object.
+
+jQuery provides a list of methods/functions you can make use of. One of them is the `click()` function. A list of **APIs(functions)** can be found [here](http://api.jquery.com/).
+
+Here is an [list of selectors](http://www.w3schools.com/jquery/jquery_ref_selectors.asp) that is available to enable you to select the html elements you require.
+
+An [live example](http://www.w3schools.com/jquery/trysel.asp) of the selectors for you to explore can be found here.
+
+
+**Activity**
+
+[Open up this link.](http://codepen.io/intosite/pen/bpqoMy)
+
+1. Add a click method to **Button 2** to change the text beside it.
+2. Change 
+
+
 ### Start using jQuery
 To start using jQuery, you'll need to import the jQuery library .js file into your html. For Bootstrap templates, *provided template previously*, jQuery is already included. Bootstrap makes use of jQuery for some of their components, for eg, navigation bar.
 
@@ -129,14 +153,6 @@ We start with a function that ensures your html [document has finish loading](ht
     	// Your code here.
 	});
 
-### Selectors & Adding Click Events
-Live sample on [CodePen](http://codepen.io/intosite/pen/VedxXV?editors=1010)
-
-To start using jQuery, you will start with the `$()` function. To target elements, you'll provide the **selector** parameter inside the `()`. The parameter is usually a **string** much like a **CSS Selector**, or at times it can be an **object**, one such object is the `document` or `window` object.
-
-Here is an [list of selectors](http://www.w3schools.com/jquery/jquery_ref_selectors.asp) that is available to enable you to select the html elements you require.
-
-An [live example](http://www.w3schools.com/jquery/trysel.asp) of the selectors for you to explore can be found here.
 
 
 #### jQuery APIs
