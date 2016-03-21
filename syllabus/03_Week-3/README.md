@@ -6,6 +6,7 @@
 * [jQuery](#jquery)
 * [Start Coding](#start)
 * [Libraries](#libraries)
+* [Assignment](#assignment)
 
 ****
 <a name="intro"></a>
@@ -98,7 +99,7 @@ jQuery also simplifies a lot of the complicated things from JavaScript, like AJA
 ### Introduction to jQuery
 
 #### Selectors & Adding Click Events
-Live sample on [CodePen](http://codepen.io/intosite/pen/VedxXV?editors=1010)
+<!-- Live sample on [CodePen](http://codepen.io/intosite/pen/VedxXV?editors=1010) -->
 
 	$('selector').functionToExecute();
 	
@@ -111,12 +112,25 @@ Here is an [list of selectors](http://www.w3schools.com/jquery/jquery_ref_select
 An [live example](http://www.w3schools.com/jquery/trysel.asp) of the selectors for you to explore can be found here.
 
 
+#### jQuery APIs
+Also know as functions or methods that you can use. In the above example, we were using the `.click()` function, to assign what JavaScript should do when the element is **clicked**. There are many other methods which are available, one of the other commonly used is the `.css()` function to apply changes to the CSS properties of an element.
+
+##### .addClass() & .removeClass()
+In the next example we will be using the `.addClass()` & `.removeClass()`
+Live sample on [CodePen](http://codepen.io/intosite/pen/MKXGJj)
+
+##### .animate();
+
+A useful jQuery API function is `.animate()`. 
+http://codepen.io/intosite/pen/BjVxbN
+
+
 **Activity**
 
 [Open up this link.](http://codepen.io/intosite/pen/bpqoMy)
 
 1. Add a click method to **Button 2** to change the text beside it.
-2. Change 
+2. Change the color of the text beside **Button 3**.
 
 
 ### Start using jQuery
@@ -132,7 +146,7 @@ If jQuery is not imported, you can import it using the `<script>` tag as such, f
 ## Import your own JavaScript
 ##### Lets get started.
 
-1. Open your **index.html** [file](https://github.com/intositeme/ts2016/blob/master/syllabus/01_Week-1/base.template.html) that was created previously. 
+1. Open your **index.html** that was created previously. 
 2. Add the line to [import your new external javascript](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#Examples) to the *index.html* file. *Inside the `<body>` tag, just before the `</body>`*
 
 `<script src="js/app.js"></script>`
@@ -155,17 +169,7 @@ We start with a function that ensures your html [document has finish loading](ht
 
 
 
-#### jQuery APIs
-Also know as functions or methods that you can use. In the above example, we were using the `.click()` function, to assign what JavaScript should do when the element is **clicked**. There are many other methods which are available, one of the other commonly used is the `.css()` function to apply changes to the CSS properties of an element.
 
-##### .addClass() & .removeClass()
-In the next example we will be using the `.addClass()` & `.removeClass()`
-Live sample on [CodePen](http://codepen.io/intosite/pen/MKXGJj)
-
-##### .animate();
-
-A useful jQuery API function is `.animate()`. 
-http://codepen.io/intosite/pen/BjVxbN
 
 ****
 
@@ -186,3 +190,7 @@ In our example, we will explore how to implement **ScrollReveal** to elements on
 
 ####
 
+<a name="assignment"></a>
+## Assignment 
+1.	Use week 2's assignment index.html which you have styled with CSS.
+2. Add at least 2 different interactive elements to your page (you can use ScrollReveal.JS or any other libraries you find).
