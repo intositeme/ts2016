@@ -177,16 +177,6 @@ We start with a function that ensures your html [document has finish loading](ht
 ## Libraries
 There are many JavaScript libraries out there. Libraries are sets of codes that makes it easy to do repeated task or effects. We'll take a look at a particular scrolling effect library
 
-#### ScrollReveal.js & AniJS
-
-**[ScrollReveal.js](https://github.com/jlmakes/scrollreveal.js)** is a set of tools that triggers a specific animation when the user scrolls the element into view. 
-Live Sample on [CodePen](http://codepen.io/intosite/pen/jWKpEv).
-
-**[AniJS](anijs.github.io/)** was created to help make it easier to apply effects with minimal knowledge of JavaScript.
-Live Sample on [CodePen](http://codepen.io/intosite/pen/dGKjdW?editors=1010). 
-
-In our example, we will explore how to implement **ScrollReveal** to elements on a page. We will also explore how we can make use of **AniJS**  to apply the same effects, but in a much easier manner.
-
 
 ####
 
